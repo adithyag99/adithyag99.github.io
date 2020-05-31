@@ -29,6 +29,7 @@ body{
 
 .rightside{
 	background: #020202;
+	position: relative;
 }
 
 .profile-image {
@@ -44,7 +45,7 @@ body{
     color: #FAFAFA;
     font-family: adelle, serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 34px
 }
 
@@ -53,19 +54,41 @@ body{
     font-family: 'Montserrat';
     font-weight: lighter;
     font-size: 1rem;
+    padding-bottom: 10px;
 }
 
 .links img{
     height: 27px;
     width: 27px;
-    margin: 0px 12px;
-	
+    margin: 0px 12px;	
 }
 
+.ico{
+	display: inline-block;
+}
 
+.off, .ico:hover .on{
+   	display:none;	
+}
+.on, .ico:hover .off{
+   display: inline-block;	
+}
+
+.button img{
+	height: 70px;
+	widht: auto;
+	position: absolute;
+	bottom:0;
+    right:0;
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 500px) {
   .profile-image {
     height: 60vh;
-    } }
+    }
+	.button img{
+		height: 50px;
+		width: auto;
+	}}
 	

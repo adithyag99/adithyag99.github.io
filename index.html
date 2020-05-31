@@ -1,53 +1,88 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
+   
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="theme-color" content="#000">
 <title>index.html</title>
 <link rel="stylesheet" href="./stylesheets/main.css">
+<link rel="stylesheet" href="./stylesheets/style.css">
+<link rel="stylesheet" href="./stylesheets/underline.css">
 <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+<style>
+	a:hover{
+		text-decoration: none;
+		color: #020202;
+	}
+</style>
+
 </head>
 
+
 <body>
-	
-	<div class="row no-gutters">
-		
+<div id="modal-container">
+	<div class="modal-background">
+	    <div class="modal">
+	    	<div class="align">
+		    	<h3 class="name1">Let's talk.</h3><br>
+				<p class="para1"><a href="mailto:adithyaganesh1@gmial.com" class="underline">
+			    <span>adithyaganesh1@gmail.com</span><svg viewBox="0 0 13 20"><polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" /></svg>
+				</a></p>
+				<p class="para1"><a href="tel:7022195515" class="underline">
+			    <span>+91  7022195515</span><svg viewBox="0 0 13 20"><polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" /></svg>
+				</a></p>
+			</div>
+	    </div>
+	</div>
+</div>
+
+<!-- Whole page -->
+
+<div class="content">
+	<div class="buttons">
+		<div class="row no-gutters">
 		<div class="col-md-6 no-gutters">
-			
 			<div class="leftside ">
 				<div class="profile-image"></div>
-			
-			</div>
-			
+			</div>	
 		</div>
-		
 		<div class="col-md-6 no-gutters">
-			
 			<div class="rightside d-flex align-self-start text-center flex-column justify-content-center">
-			
-				<h1 class="name">Hi I'm Adithya Ganesh</h1><br>
-				<p class="para">I'm a Graphic Designer from Bangalore, India.<br>
-				Let's design something amazing together!</p>
-				
-				
-				<div align="center" class="links mt-3">
-					<div style="display: inline-block"><a href="https://dribbble.com/adithyag" alt="Dribbble">
-						<img src="./images/Dribbble.svg"></a></div>
-					<div style="display: inline-block"><a href="https://www.instagram.com/adithya_g_/" alt="Instagram">
-						<img src="./images/Instagram.svg"></a></div>
-					<div style="display: inline-block"><a href="https://www.linkedin.com/in/adithya-g-329575183/" alt="LinkedIn">
-						<img src="./images/LinkedIn.svg"></a></div>
-					<div style="display: inline-block"><a href="https://https://twitter.com/AdithyaGanesh1" alt="Twitter">
-						<img src="./images/Twitter.svg"></a></div>
-				</div>
-		
+				<h1 class="name">Hi I'm Adithya Ganesh</h1><br><br>
+				<p class="para">I'm a Graphic Designer from Bangalore, India.</p>
+				<p class="para">Let's design something amazing together!</p><br>
+				<!-- LINKS -->
+					<div align="center" class="links mt-3">
+						<div class="ico"><a href="https://dribbble.com/adithyag" alt="Dribbble" target="_blank">
+							<img class="on" src="./images/Dribbble.svg"><img class="off" src="./images/DROL.svg"></a></div>
+						<div class="ico"><a href="https://www.instagram.com/adithya_g_/" alt="Instagram" target="_blank">
+							<img class="on" src="./images/Instagram.svg"><img class="off" src="./images/INSTAOL.svg"></a></div>
+						<div class="ico"><a href="https://www.linkedin.com/in/adithya-g-329575183/" alt="LinkedIn" target="_blank">
+							<img class="on" src="./images/LinkedIn.svg"><img class="off" src="./images/LINOL.svg"></a></div>
+						<div class="ico"><a href="https://https://twitter.com/AdithyaGanesh1" alt="Twitter" target="_blank">
+							<img class="on" src="./images/Twitter.svg"><img class="off" src="./images/TWOL.svg"></a></div>
+					</div>
+			</div>
+		</div>	
 		</div>
 	
 	
+
+    	<div id="three" class="button" ><img src="./images/Contact2.svg" alt="contact"></div>
+  	</div>
+</div> 
+  
 	
-	</div>
 	
+	
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./js/script.js"></script>
+
 </body>
 </html>

@@ -110,7 +110,7 @@ body{background-color: #020202}
   .arrow {
     height: 10vh;
     width: auto;
-    transform: translate(40vw, 95vh);
+    transform: translate(40vw, 90vh);
     position: absolute;
     }
 }

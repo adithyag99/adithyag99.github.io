@@ -57,26 +57,10 @@ body{
     padding-bottom: 10px;
 }
 
-.links img{
-    height: 27px;
-    width: 27px;
-    margin: 0px 12px;	
-}
-
-.ico{
-	display: inline-block;
-}
-
-.off, .ico:hover .on{
-   	display:none;	
-}
-.on, .ico:hover .off{
-   display: inline-block;	
-}
 
 .button img{
 	height: 70px;
-	widht: auto;
+	width: auto;
 	position: absolute;
 	bottom:0;
     right:0;
@@ -90,5 +74,9 @@ body{
 	.button img{
 		height: 50px;
 		width: auto;
+        position: absolute;
+        bottom:0;
+        right:0;
+        cursor: pointer;
 	}}
 	

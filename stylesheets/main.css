@@ -13,6 +13,7 @@ body{
 .rightside{
 	height: 40vh;
 	width: 100%;
+    overflow: auto;
 }
 
 @media screen and (min-width:768px)
@@ -21,7 +22,6 @@ body{
     height: 100vh;
 	}
 }
-
 
 .leftside{
 	background: #020202;
@@ -57,26 +57,24 @@ body{
     padding-bottom: 10px;
 }
 
+/*aligning*/
 
-.button img{
-	height: 70px;
-	width: auto;
-	position: absolute;
-	bottom:0;
-    right:0;
-    cursor: pointer;
+.center{
+  height: 100vh;
+  position: relative;
 }
+.center .box{
+   margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 
 @media only screen and (max-width: 500px) {
   .profile-image {
     height: 60vh;
     }
-	.button img{
-		height: 50px;
-		width: auto;
-        position: absolute;
-        bottom:0;
-        right:0;
-        cursor: pointer;
-	}}
-	
+}

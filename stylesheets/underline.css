@@ -1,6 +1,8 @@
+/* underline */
+
 .underline {
-  --line: #020202;
-  --color: #020202;
+  --line: #FAFAFA;
+  --color: #FAFAFA;
   text-decoration: none;
   color: var(--color);
   position: relative;

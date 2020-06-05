@@ -6,12 +6,12 @@ body{
 }
 
 .leftside{
-	height: 60vh;
+	height: 55vh;
 	width: 100%;
 }
 
 .rightside{
-	height: 40vh;
+	height: 35vh;
 	width: 100%;
     overflow: auto;
 }

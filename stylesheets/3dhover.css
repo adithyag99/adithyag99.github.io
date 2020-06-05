@@ -1,0 +1,42 @@
+
+.rightside {
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+.card {
+  pointer-events: none;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  background-color: #020202;
+  background-image: url("../images/13.png");
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  width: 400px;
+  height: 60px;
+  background-position: center;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  display: -webkit-box;
+  display: flex;
+
+}
+.card:after {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.card .card-content { 
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.card h1 {
+  -webkit-transform: translateZ(50px);
+          transform: translateZ(50px);
+}

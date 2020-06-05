@@ -16,7 +16,7 @@ body{
     overflow: auto;
 }
 
-@media screen and (min-width:768px)
+@media screen and (min-width:500px)
 {
 	.leftside, .rightside{
     height: 100vh;
@@ -24,11 +24,11 @@ body{
 }
 
 .leftside{
-	background: #020202;
+	background: #111111;
 }
 
 .rightside{
-	background: #020202;
+	background: #111111;
 	position: relative;
 }
 
@@ -36,7 +36,7 @@ body{
     height: 100vh;
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url("../images/4.jpg");
+    background-image: url("../images/5.0.jpg");
     background-size: cover;
     background-position: center;
 }

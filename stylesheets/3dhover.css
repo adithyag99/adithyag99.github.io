@@ -10,10 +10,9 @@
   pointer-events: none;
   -webkit-transform: translateZ(0);
           transform: translateZ(0);
-  background-color: #020202;
+  background-color: #111111;
   background-image: url("../images/13.png");
   background-repeat: no-repeat;
-  border-radius: 5px;
   width: 360px;
   height: 60px;
   background-position: center;
@@ -29,7 +28,6 @@
   content: " ";
   position: absolute;
   width: 100%;
-  border-radius: 50%;
 }
 
 .card .card-content { 

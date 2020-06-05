@@ -46,7 +46,7 @@ body{
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px
+    font-size: 32px
 }
 
 .para{
@@ -64,7 +64,7 @@ body{
   position: relative;
 }
 .center .box{
-   margin: 0;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -75,6 +75,9 @@ body{
 
 @media only screen and (max-width: 500px) {
   .profile-image {
-    height: 60vh;
+    height: 55vh;
+    }
+    .name{
+      font-size: 30px
     }
 }
